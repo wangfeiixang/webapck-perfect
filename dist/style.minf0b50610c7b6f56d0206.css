@@ -1,0 +1,26 @@
+/*! 版权所有，翻版必究 */
+.root{background-color:#eee;padding:10px;border:3px solid #ccc;color:#f10}.img{color:red}#img,.img{width:100px;height:100px}#img{background:url(./img/search.jpg) no-repeat 50%}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}body{margin:0;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}@charset "UTF-8";
+p {
+  display: flex;
+  justify-content: center; }
+  p a {
+    color: #0000AA; }
+    p a:hover {
+      color: #F0F0F0; }
+
+/* 箭头
+arrow(direction,
+size,
+color);
+*/
+.arrow {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  border-width: 10px;
+  cursor: pointer;
+  border-style: solid dashed dashed dashed;
+  border-color: #F00 transparent transparent transparent;
+  border-bottom: none; }
