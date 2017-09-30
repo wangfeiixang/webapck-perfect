@@ -64,8 +64,7 @@ module.exports = {
           },
           {
 		        test: /\.(png|jpg|gif|svg)$/,
-		       // use: 'url-loader?limit=1024',//&name=[name].[ext]&outputPath=img/最后打包加上路径 //[path]代表和src下文件同级，最好不用；[name].[ext]代表和原图片后缀名一样
-		        use: 'url-loader?limit=1024&name=[name].[ext]&outputPath=img/&publicPath=./',
+		        use: 'url-loader?limit=1024&name=[name].[ext]&outputPath=img/&publicPath=./',//[path]代表和src下文件同级，最好不用；[name].[ext]代表和原图片后缀名一样
 		      },
 		      {
 		        test: /\.html$/,
